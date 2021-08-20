@@ -51,6 +51,7 @@ a  {
     text-decoration: none;
 } 
 
+
 .btn {
     background-color: #17a2b8;
     color: white;
@@ -63,14 +64,30 @@ a  {
     border: 3px solid lightgray;
     width: 500px;
     min-height: 100px;
-    margin: 200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftcardbox {
+    width: 65%; /* remove later */
+
+    
+}
+
+#rightcardbox {
+    width: 30%;
+    background-color: orange;
 }
 
 
-.card2 {
-    margin: 100px;
-
+.card {
+    margin-bottom: 50px;
+    border: 1px solid black;
 }
+
+
+
 #card-header {
     background-color: teal;
     min-height: 60px;
